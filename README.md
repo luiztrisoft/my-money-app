@@ -49,13 +49,14 @@ $ npm i --save-dev nodemon@1.11.0
 # Executar o servidor da aplicação
 $ npm run dev
 
+ou 
 
-# Aviso!
-O template AdminLTE sofreu uma atualização pequena, mas que gerou impacto no nosso projeto, por isso é importante que as mesmas versões exibidas no vídeo sejam usadas durante o curso.
+$ npm run production
+
+# Dependencias do frontend
+O template AdminLTE sofreu uma atualização pequena, mas que gerou impacto no projeto, por isso é importante que as mesmas versões descritas abaixo sejam usadas.
 
 Para que isso ocorra no final de cada comando a flag -E deve ser aplicada.
-
-A sequencia de comandos da próxima aula ficaram assim:
 
 $ npm init -y
 
