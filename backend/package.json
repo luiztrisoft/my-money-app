@@ -2,15 +2,15 @@
   "name": "my-money-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/money.js",
+  "main": "src/loader.js",
   "scripts": {
-    "dev":"nodemon",
-    "production":"pm2 start src/loader.js --name my-money-backend"
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name my-money-backend"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-query-int": "^1.0.1",
@@ -18,7 +18,9 @@
     "mongoose": "^4.7.0",
     "mongoose-paginate": "^5.0.3",
     "node-restful": "^0.2.5",
-    "nodemon": "^1.11.0",
     "pm2": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
