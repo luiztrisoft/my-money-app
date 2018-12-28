@@ -1,5 +1,7 @@
 import {combineReducers} from 'redux'
+
 import DashboardReducer from '../dashboard/dashboardReducer'
+import TabReducer from '../common/tab/tabReducer'
 /**
  * Esse rootReducer é o resultado da combinação de todos os reducers da aplicação.
  * O papel deste arquivo é concatenar todos os reducers da aplicação.
@@ -9,7 +11,8 @@ import DashboardReducer from '../dashboard/dashboardReducer'
  * parametros que são: state e action
  */
 const rootReducer = combineReducers({
-    dashboard: DashboardReducer
+    dashboard: DashboardReducer,
+    tab: TabReducer
 })
 
 export default rootReducer
