@@ -36,7 +36,7 @@ export default class Dashboard2 extends Component {
                     <Row>
                         <ValueBox cols='12 4' color='green' icon='bank' value={`R$ ${credit}`} text='Total de créditos' />
                         <ValueBox cols='12 4' color='red' icon='credit-card' value={`R$ ${debt}`} text='Total de débitos' />
-                        <ValueBox cols='12 4' color='blue' icon='money' value={`R$ ${credit - debt}`} text='Valor consolidade' />
+                        <ValueBox cols='12 4' color='blue' icon='money' value={`R$ ${credit - debt}`} text='Valor consolidado' />
                     </Row>
                 </Content>
             </div>
