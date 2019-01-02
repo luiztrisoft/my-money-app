@@ -7,7 +7,8 @@ import promise from 'redux-promise'
 import multi from 'redux-multi'
 import thunk from 'redux-thunk'
 
-import App from './main/app'
+//import App from './main/app' -- Nova configuração de rotas (aula 159)
+import Routes from './main/routes'
 import reducers from './main/reducers'
 
 /*
@@ -31,6 +32,6 @@ import reducers from './main/reducers'
 //A tag Provider envolve TODA a aplicação passando o estado unico que é a store
 ReactDOM.render(
     <Provider store={store}>
-        <App/>
+        <Routes/>
     </Provider>    
 , document.getElementById("app"))

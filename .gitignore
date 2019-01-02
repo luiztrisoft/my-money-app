@@ -3,3 +3,4 @@
 *.log
 /frontend/*.log
 /backend/*.log
+/backend/.env
