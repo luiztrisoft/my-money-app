@@ -7,3 +7,6 @@ export const TAB_SELECTED = 'TAB_SELECTED'
 export const TAB_SHOWED = 'TAB_SHOWED'
 
 export const CYCLE_FORM = 'billingCycleForm'
+
+export const USER_FETCHED = 'USER_FETCHED'
+export const TOKEN_VALIDATED = 'TOKEN_VALIDATED'
