@@ -12,7 +12,8 @@ server.use(allowCors)
 server.use(queryParser())
 
 server.listen(port, function() {
-    console.log(`STATUS DO SERVIDOR: EXECUTANDO NA PORTA ${port}...`)
+    //console.log(`STATUS DO SERVIDOR: EXECUTANDO NA PORTA ${port}...`)
+    console.log('STATUS DO SERVIDOR: ONLINE')
 })
 
 module.exports = server

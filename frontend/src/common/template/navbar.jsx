@@ -49,11 +49,6 @@ class Navbar extends Component {
     }
 }
 
-//state é o estado gerenciado pelo redux, auth está contido nos reducers que contém o atributo user
 const mapStateToProps = state => ({ user: state.auth.user })
-
-//Nesse mapeamento deixamos o logout(e outros metodos se for o caso) disponivel dentro de this.props.logout
 const mapDispatchToProps = dispatch => bindActionCreators({ logout }, dispatch)
-
-//O connect passa o Navbar decorado com os mapeamentos
 export default connect(mapStateToProps, mapDispatchToProps)(Navbar)

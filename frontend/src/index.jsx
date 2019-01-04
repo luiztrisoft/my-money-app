@@ -7,7 +7,7 @@ import promise from 'redux-promise'
 import multi from 'redux-multi'
 import thunk from 'redux-thunk'
 
-//import App from './main/app' -- Nova configuração de rotas (aula 159)
+import App from './main/app' //-- Nova configuração de rotas (aula 159)
 import Routes from './main/routes'
 import reducers from './main/reducers'
 

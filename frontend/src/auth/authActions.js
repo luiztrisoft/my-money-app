@@ -1,6 +1,6 @@
 import {toastr} from 'react-redux-toastr'
 import axios from 'axios'
-import consts from '../main/consts'
+import consts from '../consts'
 import {USER_FETCHED, TOKEN_VALIDATED} from '../common/utils/constants'
 
 export function login(values){

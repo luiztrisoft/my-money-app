@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
-export default class Dashboard extends Component{
+export default class Grid extends Component {
 
     toCssClasses(numbers) {
         const cols = numbers ? numbers.split(' ') : []
