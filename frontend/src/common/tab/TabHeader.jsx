@@ -5,7 +5,9 @@ import { connect } from 'react-redux'
 import If from '../operator/if'
 import { selectTab } from './tabActions'
 
-
+/**
+ * TabHeader
+ */
 class TabHeader extends Component {
     render() {
         const selected = this.props.tab.selected === this.props.target
